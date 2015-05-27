@@ -97,8 +97,8 @@ Download
 
 For Multirom
 -------------
-https://github.com/KangDroid/KangDroid-Kernel_Release/blob/master/multirom/kdp-kernel-1.0-MULTIROM-20150527-UNOFFICIAL.zip?raw=true
+https://github.com/KangDroid/KangDroid-Kernel_Release/releases/download/V1.0_MULTIROM/kdp-kernel-1.0-MULTIROM-20150527-UNOFFICIAL.zip
 
 For Primary-ROm user(Non-Multirom User)
 ----------------------------------------
-https://github.com/KangDroid/KangDroid-Kernel_Release/blob/master/master/kdp-kernel-1.0-20150527-UNOFFICIAL.zip?raw=true
+https://github.com/KangDroid/KangDroid-Kernel_Release/releases/download/V1.0/kdp-kernel-1.0-20150527-UNOFFICIAL.zip
