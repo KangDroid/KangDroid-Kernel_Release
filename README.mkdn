@@ -1,0 +1,91 @@
+KangDroid-Kernel
+===========
+
+What is this?
+------------------
+This project is one of the KangDroid-Projects. This projects run for KangDroid-Project_ROM and this project, KangDroid-Project_KERNEL. This project is 
+KangDroid-Kernel Project.
+
+This is ONLY AIM for Nexus 5 CyanogenMod 12 kernel, based on cm-12.1 branch(non-caf) and this kernel uses "Aroma" scripts for installing kernel. So it is
+highly customizable, user-friendly kernel.
+
+This kernel is separated by Multirom Version and normal Primary rom version. Multirom Versions are for Secondary-Rom users and primary rom versions are only for PRIMARY ROM.(They are both exact same kernel but script is littlebit different.) Otherwise, it won't work.
+
+
+Required Stuff
+-----------------
+For MultiRom version, you must have init.d support. Otherwise, kernel feature won't work.(it will boot) --but 99% of CM-based roms have init.d support. So unless u are flashing over AOSP-Based rom, it will be fine.
+
+For Normal Primary version, just brain and some knowledge of flashing stuff.
+
+
+Features
+---------------
+
+Based on CyanogenMod 12.1 Source(Not caf, just cm-12.1 branch)
+
+Linux 3.4.107
+
+toolchain: use Self-Built Linaro 6.0.0 
+
+Using Intelliplug as a default CPU Hotplug
+
+Lots of Governor
+
+Lots of I/O Schedulers
+
+Random from 3.14
+
+Use intelli-thermalV2 for Thermal control.
+
+Faux Sound Control
+
+Voltage Control
+
+Configurable Fast Charge
+
+CPU OVERCLOCKING(USE AT OWN RISK)
+
+Swipe to Wake(Might drain battery)
+
+Double Tab to Wake(Might drain battery)
+
+Option to disable or enable Fsync
+
+And lots of other fucntions. Check my github(https://github.com/KangDroid/android_kernel_lge_hammerhead) branch at test, for FULL ChangeLog. 
+
+
+Update Perioud
+--------------
+
+This projects updates when kernel updates. Like adding funtions or mergeing CM, or like that. Maybe about once a week?
+
+
+Credits
+=======
+
+Aroma-scripts
+-------------
+@major91 @arter97 @GwonHyeok --> Base Aroma Scripts: https://github.com/major91/Zeta_Chromium-nexus5_Aroma-scripts
+
+@flar2 --> Used ElementalX aroma to add some of functions.
+
+Kernel Source 
+-------------
+@flar2 --> https://github.com/flar2/ElementalX-N5
+
+@major91 --> https://github.com/major91/Zeta_Chromium-L
+
+@franciscofranco --> https://github.com/franciscofranco/hammerhead
+
+@CyanogenMod --> https://github.com/CyanogenMod/android_kernel_lge_hammerhead --> this kernel is based on this
+
+@Electrex --> https://github.com/Electrex/Electroactive-N5
+
+@Starship-Android --> https://github.com/Starship-Android/android_kernel_lge_hammerhead-starship (For Basic Upstream)
+
+@AnguisCaptor --> https://github.com/AnguisCaptor/PwnKernel_Hammerhead --> For patch of NET
+
+@Cl3Kener --> https://github.com/Cl3Kener/UBER-L --> for basic governor and I/O Schedulers
+
+And alot of peoples..
