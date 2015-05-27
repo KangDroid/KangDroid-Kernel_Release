@@ -10,6 +10,7 @@ This is ONLY AIM for Nexus 5 CyanogenMod 12 kernel, based on cm-12.1 branch(non-
 highly customizable, user-friendly kernel.
 
 This kernel is separated by Multirom Version and normal Primary rom version. Multirom Versions are for Secondary-Rom users and primary rom versions are only for PRIMARY ROM.(They are both exact same kernel but script is littlebit different.) Otherwise, it won't work.
+Download is available at end of this readme.mkdn
 
 
 Required Stuff
@@ -89,3 +90,15 @@ Kernel Source
 @Cl3Kener --> https://github.com/Cl3Kener/UBER-L --> for basic governor and I/O Schedulers
 
 And alot of peoples..
+
+
+Download
+========
+
+For Multirom
+-------------
+https://github.com/KangDroid/KangDroid-Kernel_Release/blob/master/multirom/kdp-kernel-1.0-MULTIROM-20150527-UNOFFICIAL.zip?raw=true
+
+For Primary-ROm user(Non-Multirom User)
+----------------------------------------
+https://github.com/KangDroid/KangDroid-Kernel_Release/blob/master/master/kdp-kernel-1.0-20150527-UNOFFICIAL.zip?raw=true
