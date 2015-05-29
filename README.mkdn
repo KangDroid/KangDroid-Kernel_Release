@@ -9,15 +9,12 @@ KangDroid-Kernel Project.
 This is ONLY AIM for Nexus 5 CyanogenMod 12 kernel, based on cm-12.1 branch(non-caf) and this kernel uses "Aroma" scripts for installing kernel. So it is
 highly customizable, user-friendly kernel.
 
-This kernel is separated by Multirom Version and normal Primary rom version. Multirom Versions are for Secondary-Rom users and primary rom versions are only for PRIMARY ROM.(They are both exact same kernel but script is littlebit different.) Otherwise, it won't work.
 Download is available at end of this readme.mkdn
 
 
 Required Stuff
 -----------------
-For MultiRom version, you must have init.d support. Otherwise, kernel feature won't work.(it will boot) --but 99% of CM-based roms have init.d support. So unless u are flashing over AOSP-Based rom, it will be fine.
-
-For Normal Primary version, just brain and some knowledge of flashing stuff.
+For this kernel, you must have init.d support. Otherwise, kernel feature won't work.(it will boot) --but 99% of CM-based roms have init.d support. So unless u are flashing over AOSP-Based rom, it will be fine.
 
 
 Features
@@ -45,13 +42,15 @@ Voltage Control
 
 Configurable Fast Charge
 
-CPU OVERCLOCKING(USE AT OWN RISK)
+CPU OVERCLOCKING(USE AT OWN RISK) --> UPTO 2.8GHZ
 
 Swipe to Wake(Might drain battery)
 
 Double Tab to Wake(Might drain battery)
 
 Option to disable or enable Fsync
+
+Support exFAT FileSystem
 
 And lots of other fucntions. Check my github(https://github.com/KangDroid/android_kernel_lge_hammerhead) branch at test, for FULL ChangeLog. 
 
@@ -95,10 +94,6 @@ And alot of peoples..
 Download
 ========
 
-For Multirom
--------------
-https://github.com/KangDroid/KangDroid-Kernel_Release/releases/download/V1.0_MULTIROM/kdp-kernel-1.0-MULTIROM-20150527-UNOFFICIAL.zip
+https://github.com/KangDroid/KangDroid-Kernel_Release/releases/download/V1.1/kdp-kernel-1.1-20150529-OFFICIAL.zip
 
-For Primary-ROm user(Non-Multirom User)
-----------------------------------------
-https://github.com/KangDroid/KangDroid-Kernel_Release/releases/download/V1.0/kdp-kernel-1.0-20150527-UNOFFICIAL.zip
+For more further updates, please visit: https://github.com/KangDroid/KangDroid-Kernel_Release/releases
